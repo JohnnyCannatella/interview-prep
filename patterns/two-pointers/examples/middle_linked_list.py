@@ -25,7 +25,7 @@ import os
 
 # CLARIFICATION QUESTIONS
 """
-
+-
 """
 
 # APPROACH
@@ -36,30 +36,9 @@ import os
 2. Use Two-pointer technique from start and end to find the middle
 3. Verify if the nodes is even, in that case return the second middle node
 
-TIME: 
-SPACE: 
+TIME: O(n)
+SPACE: O(1)
 """
-# NOT SOLVED PROBLEM
-"""
-## Need Review
-### [Problem Name](link)
-- Attempted: YYYY-MM-DD
-- Blocking Points:
-  1. Point 1
-  2. Point 2
-- Solution Study Notes:
-  - Key concept missed: 
-    f(val), 
-    Linked list,
-    Nodes, 
-    create class in python, 
-    don't remember of to take input from input
-- Review Schedule:
-  - [ ] 24h review
-  - [ ] 72h review
-  - [ ] 1 week review
-"""
-
 
 class Node:
     def __init__ (self, val, next=None):
@@ -75,7 +54,11 @@ def build_list(nodes, f):
 
 #Two pointer algorithm
 def middle_of_linked_list(head: Node) -> int:
-    print("test")
+    slow = fast = head #together the pointer start from head
+    while fast and fast.next: #until fast and fast.next have value
+        fast = fast.next.next
+        slow = slow.next
+    return slow.val
 
 
 if __name__ == "__main__":
