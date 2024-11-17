@@ -20,3 +20,4 @@
 - Note:
   - The two-pointer technique is not limited to arrays. Two pointer can be done on other structures, like linked list, as long as they are iterable.
   - Two pointers are helpful because it often offers a more efficient solution than the naive solution. (less complexity)
+

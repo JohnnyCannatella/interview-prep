@@ -1,5 +1,5 @@
+#EXAMPLE - TWO POINTERS -> Same Direction
 #!/bin/python3
-import os
 
 # EXCERCISE
 """
