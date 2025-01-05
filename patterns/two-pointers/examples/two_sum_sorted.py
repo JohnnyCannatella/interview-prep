@@ -56,16 +56,15 @@ SPACE: O(1) modify in place
 """
 
 def sum_sorted(arr: List[int], target: int) -> List[int]:
-    s, f = 0, len(arr) - 1
-    while s < f:
-        two_sum = arr[s]+ arr[f]
+    l, r = 0, len(arr) - 1
+    while l < r:
+        two_sum = arr[l]+ arr[r]
         if two_sum == target:
-            return [s, f]
+            return [l, r]
         if two_sum > target:
-            f -= 1
+            r -= 1
         else:
-            s += 1
-
+            l += 1
 
 
 if __name__ == "__main__":

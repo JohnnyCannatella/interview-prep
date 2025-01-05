@@ -49,11 +49,11 @@ SPACE: O(1) modify in place
 """
 
 def move_zeros(nums: List[int])-> List[int]:
-    slow = 0
-    for fast in range(len(nums)):
-        if nums[fast] != 0:
-            nums[slow], nums[fast] = nums[fast], nums[slow]
-            slow += 1
+    left = 0
+    for right in range(len(nums)):
+        if nums[right] != 0:
+            nums[left], nums[right] = nums[right], nums[left]
+            left += 1
     return nums
 
 

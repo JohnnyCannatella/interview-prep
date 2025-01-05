@@ -54,11 +54,11 @@ def build_list(nodes, f):
 
 #Two pointer algorithm
 def middle_of_linked_list(head: Node) -> int:
-    slow = fast = head #together the pointer start from head
-    while fast and fast.next: #until fast and fast.next have value
-        fast = fast.next.next
-        slow = slow.next
-    return slow.val
+    left = right = head #together the pointer start from head
+    while right and right.next: #until right and right.next have value
+        right = right.next.next
+        left = left.next
+    return left.val
 
 
 if __name__ == "__main__":
