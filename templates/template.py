@@ -3,11 +3,13 @@ import os
 import unittest
 
 """
-Problem: https://leetcode.com/problems/remove-element/
-DATE: 4/01/25
+Problem: 
+DATE: /01/25
 TOPIC: Array, Two Pointers
 
 INPUTS:
+
+CONSTRAINTS:
 
 OUTPUTS:
 
@@ -21,8 +23,10 @@ NOTES:
 
 QUESTION: I -> INTERVIEWER - M -> Me
 
-    M: Should we consider error case ? 
-    I: Generally
+    M:
+    I: 
+    
+PSEUDOCODE
 
 """
 

@@ -10,3 +10,4 @@ Una linked list con un ciclo è quando un nodo, invece di puntare a null, punta 
 
 in una linked list conosco solo il .next e non so mai chi è il precedente
 Non ho la lunghezza della lista -> len(head) non posso farlo
+Non è sortable
