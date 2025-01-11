@@ -1,11 +1,12 @@
 #!/bin/python3
 import os
 import unittest
+from typing import List
 
 """
 Problem: 
 DATE: /01/25
-TOPIC: Array, Two Pointers
+TOPIC:
 
 INPUTS:
 

@@ -47,11 +47,11 @@ for end in range(len(s)):
 
 **keywords**
 ```
-• consecutivi
-• sottostringa
+• consecutive
+• substring
 • subarray
-• finestra di dimensione k
-• tutti gli elementi contigui
+• window of dimension k
+• all the contiguous elements
 ```
 **Trucchi e Pattern comuni**
 
